@@ -1,0 +1,74 @@
+.App{
+  text-align: center;
+  align-items: center;
+  width: 100vh;
+  height: 110vh;
+  padding: 25px;
+  margin-left: 20%;
+  background: url('https://previews.123rf.com/images/maximusnd/maximusnd1612/maximusnd161202338/103554848-christmas-background-abstract-texture-light-bokeh-background-glitter-vintage-lights-background-light.jpg');
+}
+.card {
+  width: 50vh;
+  height: 60vh;
+  padding: 30px 10px;
+  margin: 20px 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+
+ 
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+span{
+  margin: 10px;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 200;
+  line-height: 2;
+}
+
+img{
+  border-radius: 15%;
+}
+ 
+.btn {
+  padding: 20px 45px;
+  margin: 15px ;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: palevioletred;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn:hover {background-color: #971386}
+
+.btn:active {
+  background-color: #c92ab4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.butt {
+  background-color: #076df3dc;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 4px;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.butt:hover {
+  opacity: 1;
+}
